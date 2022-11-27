@@ -445,7 +445,7 @@ input:invalid{
 }
 
 /* Vista movil */
-@media screen and (max-width: 780px) and (min-device-width: 320px) {
+@media screen and (max-width: 780px) and (min-device-width: 600px) {
     body{
         width: 100%;
     }
@@ -478,5 +478,76 @@ input:invalid{
     #about-me img{
         width: 50%;
         margin-left: 5px;
+    }
+}
+@media screen and (max-width: 600px) and (min-device-width: 320px) {
+    body{
+        width: 100%;
+    }
+    /* Estilos cabecera tablet */
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 400px;
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+        background-color: var(--colorprincipal);
+    }
+    nav>ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    /* Estilos aside */
+    aside{
+        width: 7vh;
+        height: 110vh;
+    }
+    aside img{
+        width: 40%;
+        margin-left: 7px;
+    }
+    /* Estilos about-me */
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-me img{
+        width: 50%;
+        height: 50%;
+        margin-left: 5px;
+    }
+    #about-me div{
+        width: 70%;
+        height: 50%;
+    }
+    /* Estilos proyectos */
+    #projects{
+        align-items: center;
+        justify-content: center;
+    }
+    #projects-title>h2{
+        
+        width: 30%;
+    }
+    .project{
+        width: 70%;
+    }
+    .project>a>img{
+        width: 70%;
+    }
+    /* Estilos servicios */
+    .service{
+        width: 70%;
+    }
+    /* Estilos testimonios */
+    #testimonies-title>h2{
+        width: 50%;
     }
 }
