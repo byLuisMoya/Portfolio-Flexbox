@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b796c7785a.js" crossorigin="anonymous"></script>
+    <title>Portfolio-Flexbox</title>
+</head>
+<body>
+    <aside>
+        <a href="#"><img src="./media/instagram.png"></a>
+        <a href="#"><img src="./media/twitter.png"></a>
+    </aside>
+    <main>
+        <header>
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonies">Testimonies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="hero">
+            <h1>I am <b>Luis Moya Prados</b></h1>
+            <h2>Web Developer</h2>
+            <a href="">My Github</a>
+        </div>
+        <div id="about-me">
+            <img src="./media/prueba.jpg">
+            <div>
+                <h2>About Me</h2>
+                <p>I am Luis Moya, i'm from Granada, España.
+                    I am currently studing Web Development.
+                    I am a very hard worker and i like to learn new things.
+                </p>
+            </div>
+        </div>
+        <div class="skills" id="skill">
+            <h2>Skills</h2>
+            <div class="skill-html"><h3>HTML</h3></div>
+            <div class="skill-html-progress">
+                <span class="progress-bar">75%</span>
+            </div>
+            <div class="skill-css"><h3>CSS</h3></div>
+            <div class="skill-css-progress">
+                <span class="progress-bar">80%</span>
+            </div>
+            <div class="skill-js"><h3>Java Script</h3></div>
+            <div class="skill-js-progress">
+                <span class="progress-bar">65%</span>
+            </div>
+            <div class="skill-php"><h3>PHP</h3></div>
+            <div class="skill-php-progress">
+                <span class="progress-bar">50%</span>
+            </div>
+        </div>
+        
+        <div id="projects">
+            <div id="projects-title"><h2>Projects</h2></div>
+            <div id="projects--container">
+                <div id="project1" class="project"><a href="#">
+                    <img src="./media/guessing_color_game.png">
+                    <h3>Guessing Color Game</h3>
+                    <p>A game were you win when you select the correct color</p>
+                </a></div>
+                <div id="project2" class="project"><a href="#">
+                    <img src="./media/formulario_hotel.png">
+                    <h3>Hotel Form</h3>
+                    <p>A project about an hotel form</p>
+                </a></div>
+                <div id="project3" class="project"><a href="https://github.com/Capitan9709/DWEC/tree/main/Tema5/W3/ejercicio1" target="_blank">
+                    <img src="./media/stopwatch.png">
+                    <h3>Stopwatch</h3>
+                    <p>A functional StopWatch, with JS</p>
+                </a></div>
+                <div id="project4" class="project"><a href="https://github.com/Capitan9709/DWEC/tree/main/Tema5/W3/ejercicio2" target="_blank">
+                    <img src="./media/hangman.png">
+                    <h3>Hangman</h3>
+                    <p>A functional hangman game made with JS</p>
+                </a></div>
+                <div id="project5" class="project"><a href="https://github.com/Capitan9709/DWEC/tree/main/Tema5/W3/ejercicio3" target="_blank">
+                    <img src="./media/pairs_game.png">
+                    <h3>Pairs Game</h3>
+                    <p>A functional pais game made with JS</p>
+                </a></div>
+                <div id="project6" class="project"><a href="https://github.com/Capitan9709/DWEC/tree/main/Tema5/W3/ejercicio4" target="_blank">
+                    <img src="./media/grocery_bud.png">
+                    <h3>Grocery Bud</h3>
+                    <p>A buying list creator made with JS</p>
+                </a></div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div id="services-title"><h2>Services</h2></div>
+            <div id="services--container">
+                <div id="service1" class="service">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h3>Computer Technician</h3>
+                    <p>Knowledge of repair and maintenance of computer equipment.</p>
+                </div>
+                <div id="service2" class="service">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h3>Network Technician</h3>
+                    <p>Knowledge of network installation</p>
+                </div>
+                <div id="service3" class="service">
+                    <i class="fa-brands fa-square-js"></i>
+                    <h3>Front End Developer</h3>
+                    <p>Knowledge of HTML, CSS and JS</p>
+                </div>
+                <div id="service4" class="service">
+                    <i class="fa-brands fa-php"></i>
+                    <h3>Back End Developer</h3>
+                    <p>PHP and MYSQL knowledge</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="testimonies">
+            <div id="testimonies-title"><h2>Testimonies</h2></div>
+            <div id="testimonies--container">
+                <div id="testimony1" class="testimony">
+                    <img src="./media/testimony1.jpg">
+                    <h3>Juan Manuel Segura</h3>
+                    <p>He is a very hard worker and he is very good at what he does.</p>
+                </div>
+                <div id="testimony2" class="testimony">
+                    <img src="./media/testimony3.jpg">
+                    <h3>Manolo Ferran</h3>
+                    <p>He is a good companion, helps in any way he can</p>
+                </div>
+                <div id="testimony3" class="testimony">
+                    <img src="./media/testimony2.jpeg">
+                    <h3>Miguel Sanchez</h3>
+                    <p>He is an exemplary person, he does what he can and more.</p>
+                </div>
+                <div id="testimony4" class="testimony">
+                    <img src="./media/testimony4.jpg">
+                    <h3>Bill Gates</h3>
+                    <p>He was the one who gave me the idea of windows 10.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div id="contact-title"><h2>Contact</h2></div>
+            <div id="contact--container">
+                <form action="" >
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        <label for="text">Text</label>
+                        <textarea name="text" id="textarea" cols="30" rows="10" placeholder="Write something..." required></textarea>    
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
