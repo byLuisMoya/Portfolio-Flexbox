@@ -534,7 +534,7 @@ input:invalid{
     }
     #projects-title>h2{
         
-        width: 30%;
+        width: 50%;
     }
     .project{
         width: 70%;
@@ -548,6 +548,6 @@ input:invalid{
     }
     /* Estilos testimonios */
     #testimonies-title>h2{
-        width: 50%;
+        width: 70%;
     }
 }
